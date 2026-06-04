@@ -1,0 +1,23 @@
+name: orthofinder_pipeline
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - orthofinder>=3.0
+  - diamond
+  - mafft
+  - trimal
+  - iqtree                # installs latest available (2.x or 3.x)
+                          # IQ-TREE 3 binary at ~/Phylogenetic_software/iqtree3/
+                          # is auto-detected by 05_run_iqtree.py if iqtree3 is in PATH
+  - biopython>=1.81
+  - pandas>=2.0
+  - numpy
+  - tqdm
+  - matplotlib
+  - perl
+  # GUI dependencies
+  - streamlit>=1.37
+  - psutil
