@@ -1194,7 +1194,7 @@ assistant. Claude Code was used throughout the development process for:
 All code was reviewed, tested, and validated by the author on real
 bacterial proteome datasets. The underlying bioinformatics tools
 (OrthoFinder, DIAMOND, MAFFT, trimAl, IQ-TREE) and the scientific
-decisions regarding their application are the responsibility of the authors.
+decisions regarding their application are the responsibility of the author.
 
 > Anthropic. (2025). *Claude Code* (Version claude-sonnet-4-5).
 > https://claude.ai/code
