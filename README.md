@@ -1191,7 +1191,7 @@ assistant. Claude Code was used throughout the development process for:
 - Security review and remediation (path-traversal vulnerability in the GUI)
 - Writing and maintaining this documentation
 
-The idea and design of the pipeline were the author's. All code was reviewed, tested, and validated by the author on real
+The idea, design, structure and flow of the pipeline were the author's. All code was reviewed, tested, and validated by the author on real
 bacterial proteome datasets. The underlying bioinformatics tools
 (OrthoFinder, DIAMOND, MAFFT, trimAl, IQ-TREE) and the scientific
 decisions regarding their application are the responsibility of the author.
